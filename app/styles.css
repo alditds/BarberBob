@@ -1,0 +1,16 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+@media (width > 1021) {
+  html {
+    scroll-padding-top: 100px;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 30px;
+}
