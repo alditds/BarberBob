@@ -33,7 +33,7 @@ export default function Navbar() {
           <li className="flex items-center justify-center">
             <Link
               href={"#home"}
-              className="rounded-4xl border-2 border-gray-400 bg-white px-2 py-1 font-semibold"
+              className="rounded-4xl border-2 border-gray-400 bg-white px-2 py-1 font-semibold hover:border-gray-700 hover:bg-gray-700 hover:text-white"
             >
               Home
             </Link>
@@ -41,7 +41,7 @@ export default function Navbar() {
           <li className="flex items-center justify-center">
             <Link
               href={"#about"}
-              className="rounded-4xl border-2 border-gray-400 bg-white px-2 py-1 font-semibold"
+              className="rounded-4xl border-2 border-gray-400 bg-white px-2 py-1 font-semibold hover:border-gray-700 hover:bg-gray-700 hover:text-white"
             >
               About Us
             </Link>
@@ -49,7 +49,7 @@ export default function Navbar() {
           <li className="flex items-center justify-center">
             <Link
               href={"#services"}
-              className="rounded-4xl border-2 border-gray-400 bg-white px-2 py-1 font-semibold"
+              className="rounded-4xl border-2 border-gray-400 bg-white px-2 py-1 font-semibold hover:border-gray-700 hover:bg-gray-700 hover:text-white"
             >
               Services
             </Link>
@@ -57,7 +57,7 @@ export default function Navbar() {
           <li className="flex items-center justify-center">
             <Link
               href={"#testimonial"}
-              className="rounded-4xl border-2 border-gray-400 bg-white px-2 py-1 font-semibold"
+              className="rounded-4xl border-2 border-gray-400 bg-white px-2 py-1 font-semibold hover:border-gray-700 hover:bg-gray-700 hover:text-white"
             >
               Testimonials
             </Link>
@@ -65,7 +65,7 @@ export default function Navbar() {
           <li className="flex items-center justify-center">
             <Link
               href={"#contact"}
-              className="rounded-4xl border-2 border-gray-400 bg-white px-2 py-1 font-semibold"
+              className="rounded-4xl border-2 border-gray-400 bg-white px-2 py-1 font-semibold hover:border-gray-700 hover:bg-gray-700 hover:text-white"
             >
               Contact Us
             </Link>
