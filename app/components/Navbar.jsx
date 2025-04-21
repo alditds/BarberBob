@@ -1,19 +1,35 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { cardo } from "@/fonts";
 import { PhoneIcon } from "@heroicons/react/16/solid";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
   function handleClick() {
     setIsOpen(!isOpen);
   }
 
+  useEffect(() => {
+    function handleScroll() {
+      setIsScrolled(window.scrollY > 0);
+    }
+
+    // menambahkan event listener scroll pada window
+    addEventListener("scroll", handleScroll);
+
+    // menghapus event listener scroll ketika tidak dibutuhkan
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <nav className="sticky top-0 z-10 flex w-full min-w-[320px] justify-between bg-white px-9 py-4 shadow-sm lg:px-22">
+    <nav
+      className={`sticky top-0 z-10 flex w-full min-w-[320px] justify-between bg-white px-9 transition-all duration-500 ${isScrolled ? "py-5 shadow-md" : "py-8"} lg:px-22`}
+    >
       <Link href={"#"} className="flex items-center">
         <img
           src="./images/barberbob.svg"
