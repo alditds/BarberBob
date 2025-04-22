@@ -152,6 +152,21 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section className="flex flex-col items-center bg-gray-100 px-8 py-20">
+        <h3 className="mb-5 text-3xl font-semibold">Visit Our Barber Shop</h3>
+        <div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d994.0176400738083!2d122.3712994232567!3d-4.757752269946055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sid!4v1745281088825!5m2!1sen!2sid"
+            width="600"
+            height="450"
+            style={{ border: "1px solid gray" }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+
       <section
         id="contact"
         className="flex flex-col items-center bg-gray-100 px-8 py-20"
