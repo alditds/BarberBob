@@ -30,7 +30,7 @@ export default function Navbar() {
     <nav
       className={`sticky top-0 z-10 flex w-full min-w-[320px] justify-between bg-white px-9 transition-all duration-500 ${isScrolled ? "py-5 shadow-md" : "py-8"} lg:px-22`}
     >
-      <Link href={"#"} className="flex items-center">
+      <Link href={"#home"} className="flex items-center">
         <img
           src="./images/barberbob.svg"
           className="h-12 w-10 lg:h-16 lg:w-14"
@@ -43,7 +43,7 @@ export default function Navbar() {
       <div className="hidden flex-col gap-4 pr-4 lg:flex">
         <span className="gap-4 lg:flex lg:justify-end">
           <PhoneIcon className="mt-1 h-8 w-8" />
-          <h2 className="text-3xl font-semibold">0822-4814-1434</h2>
+          <h2 className="text-3xl font-semibold">0822-XXXX-XXXX</h2>
         </span>
         <ul className={`flex gap-4`}>
           <li className="flex items-center justify-center">
@@ -94,12 +94,13 @@ export default function Navbar() {
       </button>
 
       <div
+        onClick={handleClick}
         className={`${isOpen ? "right-0 backdrop-blur-lg" : "-right-full"} fixed top-0 flex min-h-screen w-full items-center justify-center transition-all duration-300 ease-in-out`}
       >
         <ul className="flex flex-col items-center gap-4">
           <li>
             <Link
-              href="#kome"
+              href="#home"
               className="rounded-2xl border bg-white px-2 py-1"
             >
               Home

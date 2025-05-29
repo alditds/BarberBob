@@ -13,12 +13,12 @@ export default function HomePage() {
         className="flex flex-col items-center self-center px-8 py-20"
       >
         <h1 className="mb-8 pt-0 text-center text-4xl font-semibold md:pt-8">
-          Welcome to BarberBob
+          Selamat Datang di BarberBob
         </h1>
-        <Button>Book your Appointment</Button>
-        <span className="my-8 flex gap-2">
+        <Button>Buat Janji?</Button>
+        <span className="my-6 flex gap-2">
           <PhoneIcon className="w-5" />
-          <h3 className="text-xl">0822-48141434</h3>
+          <h3 className="text-xl">0822-XXXX-XXXX</h3>
         </span>
         <div className="mb-8 h-[50vw] w-full overflow-hidden rounded-xl lg:h-[470px] lg:w-[910px]">
           <img
@@ -29,20 +29,20 @@ export default function HomePage() {
         </div>
         <div className="mx-auto lg:max-w-[720px] lg:px-[30px]">
           <p className="mb-2.5">
-            Unleash your potential and look your absolute best with the expert
-            grooming services at BarberBob. Our dedicated and professional
-            capster is here to help you achieve the ultimate handsome, tailored
-            to your unique style.
+            Bebaskan potensi Anda dan tampil terbaik dengan layanan perawatan
+            ahli di BarberBob. Penata rambut kami yang berdedikasi dan
+            profesional siap membantu Anda mendapatkan penampilan terbaik, yang
+            disesuaikan dengan gaya unik Anda.
           </p>
           <p className="mb-2.5">
-            Step into our shop and experience a transformation like no other. We
-            are committed to providing a relaxed atmosphere where you can unwind
-            while receiving top-notch haircuts and grooming.
+            Masuklah ke tempat kami dan rasakan transformasi yang tiada duanya.
+            Kami berkomitmen untuk menyediakan suasana santai tempat Anda dapat
+            bersantai sambil menerima potongan rambut dan perawatan terbaik.
           </p>
           <p className="mb-2.5">
-            Book your appointment today and discover why BarberBob is the go-to
-            destination for those who value style, precision, and an
-            unforgettable barber experience.
+            Pesan janji temu Anda hari ini dan temukan mengapa BarberBob menjadi
+            tujuan utama bagi mereka yang menghargai gaya, ketepatan, dan
+            pengalaman pangkas rambut yang tak terlupakan.
           </p>
         </div>
       </section>
@@ -50,26 +50,28 @@ export default function HomePage() {
         <div className="mx-auto lg:max-w-[720px] lg:px-[30px]">
           <h1 className="mb-5 text-center text-3xl font-semibold">About Us</h1>
           <p className="mb-2.5">
-            Welcome to BarberBob, where we believe that every haircut is an
-            opportunity to enhance your style and boost your confidence. As a
-            professional barber with years of experience, I am dedicated to
-            helping you achieve your maximum handsome.
+            Selamat datang di BarberBob, tempat kami percaya bahwa setiap potong
+            rambut adalah kesempatan untuk meningkatkan gaya dan kepercayaan
+            diri Anda. Sebagai tukang cukur profesional dengan pengalaman
+            bertahun-tahun, saya berdedikasi untuk membantu Anda mencapai
+            ketampanan maksimal.
           </p>
           <p className="mb-2.5">
-            At BarberBob, we offer a relaxing and friendly atmosphere where you
-            can unwind while receiving top-notch grooming services. From classic
-            cuts to modern styles, I take the time to understand what you want
-            and ensure that you leave my chair looking and feeling your best.
+            Di BarberBob, kami menawarkan suasana yang santai dan ramah, tempat
+            Anda dapat bersantai sambil menerima layanan perawatan terbaik. Dari
+            potongan klasik hingga gaya modern, saya meluangkan waktu untuk
+            memahami apa yang Anda inginkan dan memastikan Anda meninggalkan
+            tempat saya dengan penampilan dan perasaan terbaik.
           </p>
           <p className="mb-2.5">
-            My mission is simple: to provide personalized service that
-            transforms not just your look, but also your attitude. I stay
-            updated on the latest trends and techniques, using only the finest
-            products to ensure your hair always looks its best. Whether you’re
-            coming in for a simple trim or a complete style overhaul, rest
-            assured that you’re in skilled hands. Join me at BarberBob and
-            experience the difference of a barber who truly cares about your
-            appearance.
+            Misi saya sederhana: menyediakan layanan personal yang tidak hanya
+            mengubah penampilan Anda, tetapi juga sikap Anda. Saya selalu
+            mengikuti tren dan teknik terbaru, hanya menggunakan produk terbaik
+            untuk memastikan rambut Anda selalu terlihat terbaik. Baik Anda
+            datang untuk pemangkasan sederhana atau perombakan gaya total,
+            yakinlah bahwa Anda berada di tangan yang terampil. Bergabunglah
+            dengan saya di BarberBob dan rasakan perbedaan dari tukang cukur
+            yang benar-benar peduli dengan penampilan Anda.
           </p>
         </div>
       </section>
@@ -82,42 +84,42 @@ export default function HomePage() {
           <ImageCard
             title="Haircuts"
             image="./images/services/service-1.jpg"
-            desc="We provide expert haircuts tailored to your style, making every visit a chance to express yourself."
+            desc="Kami menyediakan potongan rambut ahli yang sesuai gaya Anda, untuk mengekspresikan diri di setiap kunjungan."
           />
           <ImageCard
             title="Beard Grooming"
             image="./images/services/service-2.jpg"
-            desc="We provide expert haircuts tailored to your style, making every visit a chance to express yourself."
+            desc="Jenggot sulit diatur? Tim kami siap merapikan dan menyempurnakan agar penampilan Anda makin maksimal."
           />
           <ImageCard
             title="Shaves"
             image="./images/services/service-3.jpg"
-            desc="We provide expert haircuts tailored to your style, making every visit a chance to express yourself."
+            desc="Kami menawarkan cukur mewah yang membuat kulit Anda halus dan menyegarkan hari Anda."
           />
           <ImageCard
             title="Hair Coloring"
             image="./images/services/service-4.jpg"
-            desc="We provide expert haircuts tailored to your style, making every visit a chance to express yourself."
+            desc="Percayakan pewarnaan rambut Anda kepada kami untuk hasil memukau yang menarik perhatian."
           />
           <ImageCard
             title="Hair Styling"
             image="./images/services/service-5.jpg"
-            desc="We provide expert haircuts tailored to your style, making every visit a chance to express yourself."
+            desc="Kami membantu menciptakan gaya yang sesuai dengan kepribadian dan gaya hidup Anda."
           />
           <ImageCard
             title="Scalp Treatments"
             image="./images/services/service-6.jpg"
-            desc="We provide expert haircuts tailored to your style, making every visit a chance to express yourself."
+            desc="Pelanggan kami menyukai perawatan kulit kepala yang menyehatkan rambut dan memberikan relaksasi."
           />
           <ImageCard
             title="Children's Cut"
             image="./images/services/service-7.jpg"
-            desc="We provide expert haircuts tailored to your style, making every visit a chance to express yourself."
+            desc="Kami menyediakan potongan rambut ramah dan menyenangkan untuk anak-anak, membuat pengalaman cukur jadi lebih seru."
           />
           <ImageCard
             title="Consultation"
             image="./images/services/service-8.jpg"
-            desc="We provide expert haircuts tailored to your style, making every visit a chance to express yourself."
+            desc="Percayakan konsultasi pribadi kepada kami untuk menemukan solusi grooming terbaik untuk Anda."
           />
         </div>
       </section>
@@ -137,17 +139,17 @@ export default function HomePage() {
           <TestimoniCard
             name="Fendi"
             address="Lelilef, Weda Tengah"
-            quote="BarberBob is simply the best! Every haircut I get makes me feel like a new man. The attention to detail is unmatched!"
+            quote="BarberBob terbaik! Setiap potongannya membuat saya merasa baru, dengan perhatian detail yang luar biasa!"
           />
           <TestimoniCard
             name="Aldi Saputra"
             address="Tondasi, Muna Barat"
-            quote="I've been to many barbers, but none compare to the experience I had at BarberBob. The atmosphere is welcoming, and the cuts are always on point!"
+            quote="Saya sudah coba banyak barber, tapi pengalaman di BarberBob tak tertandingi. Suasananya ramah, potongannya selalu pas!"
           />
           <TestimoniCard
             name="Muhammad Jefri"
             address="Pulau Balu, Muna Barat"
-            quote="BarberBob transformed my look! His expertise and advice made all the difference. I walk out feeling confident every time. Highly recommend!"
+            quote="BarberBob mengubah penampilan saya! Keahlian dan sarannya membuat beda besar. Saya selalu keluar dengan percaya diri. Sangat direkomendasikan!"
           />
         </div>
       </section>
@@ -157,12 +159,13 @@ export default function HomePage() {
         <div>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d994.0176400738083!2d122.3712994232567!3d-4.757752269946055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sid!4v1745281088825!5m2!1sen!2sid"
-            width="600"
+            width="350"
             height="450"
             style={{ border: "1px solid gray" }}
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
+            className="md:w-[600px] lg:w-[1000px]"
           ></iframe>
         </div>
       </section>
@@ -171,22 +174,22 @@ export default function HomePage() {
         id="contact"
         className="flex flex-col items-center bg-gray-100 px-8 py-20"
       >
-        <h2 className="mb-5 text-3xl font-semibold">Get in Touch</h2>
+        <h2 className="mb-5 text-3xl font-semibold">Hubungi kami</h2>
         <form
           action="aldi"
           className="flex w-full flex-wrap justify-end md:w-2xl"
         >
           <div className="flex w-full flex-wrap justify-between md:flex-nowrap">
-            <Input height="12" placeholder="Name" className="bg-white" />
+            <Input height="12" placeholder="Nama" className="bg-white" />
             <Input height="12" placeholder="Email" className="bg-white" />
           </div>
           <textarea
             name=""
             id=""
-            placeholder="Message"
+            placeholder="Pesan"
             className="mb-2 h-[150px] max-h-[150px] w-full rounded-2xl border-2 border-gray-200 bg-white p-4 md:mb-4"
           ></textarea>
-          <Button>Send</Button>
+          <Button>Kirim</Button>
         </form>
       </section>
     </>
