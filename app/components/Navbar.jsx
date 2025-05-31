@@ -30,14 +30,19 @@ export default function Navbar() {
     <nav
       className={`sticky top-0 z-10 flex w-full min-w-[320px] justify-between bg-white px-9 transition-all duration-500 ${isScrolled ? "py-5 shadow-md" : "py-8"} lg:px-22`}
     >
-      <Link href={"#home"} className="flex items-center">
+      <Link href={"#home"} className="flex items-center gap-2">
         <img
           src="./images/barberbob.svg"
-          className="h-12 w-10 lg:h-16 lg:w-14"
+          className="h-16 w-16 lg:h-20 lg:w-20"
         />
-        <h1 className={`${cardo.className} text-2xl font-bold lg:text-4xl`}>
-          BARBERBOB
-        </h1>
+        <div className="flex flex-col">
+          <h1 className={`${cardo.className} text-2xl font-bold lg:text-4xl`}>
+            SHI BOB
+          </h1>
+          <h1 className={`${cardo.className} text-2xl font-bold lg:text-4xl`}>
+            BARBERSHOP
+          </h1>
+        </div>
       </Link>
 
       <div className="hidden flex-col gap-4 pr-4 lg:flex">
